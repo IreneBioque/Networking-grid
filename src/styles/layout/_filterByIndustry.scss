@@ -1,0 +1,15 @@
+.listButtons {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 45px;
+  &__buttons {
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+  }
+}
+
+.green {
+  background-color: #5ab16d;
+}
