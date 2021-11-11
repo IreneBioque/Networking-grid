@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+  &__button {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  &__title {
+    font-size: 30px;
+    text-align: center;
+  }
+}
