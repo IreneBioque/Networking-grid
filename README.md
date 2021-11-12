@@ -1,7 +1,7 @@
 # Networking-grid. 
 ## Hackaton JOBMadrid
 
-Este proyecto consiste en una página donde encontrarás informacion de distintas empresas. En el listado aparece su tamaño, nombre, año de fundación... Si abres la pestalla filter, verás que puedes filtrar por tipo de empresa.
+Este proyecto consiste en una página donde encontrarás información de distintas empresas. En el listado aparece su tamaño, nombre, año de fundación... Si abres la pestaña filter, verás que puedes filtrar por tipo de empresa.
 
 This project consists of a page where you will find information about different companies. In the list you will find their size, name, year of foundation... If you open the filter screen, you will see that you can filter by type of company.
 
