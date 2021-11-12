@@ -1,10 +1,6 @@
 const callToApi = () => {
   return fetch(
-    'http://challenges-asset-files.s3.us-east-2.amazonaws.com/jobMadrid/companies.json',
-    {
-      mode: 'cors',
-      method: 'GET',
-    }
+    'https://challenges-asset-files.s3.us-east-2.amazonaws.com/jobMadrid/companies.json'
   )
     .then((response) => response.json())
     .then((dataApi) => {
