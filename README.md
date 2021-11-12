@@ -5,6 +5,38 @@ Este proyecto consiste en una página donde encontrarás informacion de distinta
 
 This project consists of a page where you will find information about different companies. In the list you will find their size, name, year of foundation... If you open the filter screen, you will see that you can filter by type of company.
 
+## Información importante ⚠️ / Important information ⚠️
+Debido a un problema con las cors de la url del hackaton, el fetch no funciona si tienes activada la seguridad del navegador. Si usas Chrome, abre el ejecutador de tareas, si estás en Windows con el siguiente comando
+
+```
+Windows + R
+```
+y a continuación pon la siguiente linea de código 
+
+```
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+```
+Esto desactivará la seguridad de Google y podrás ver la página correctamente.
+
+Because of a problem with the hackathon url cors, the fetch does not work if you have browser security enabled. If you are using Chrome, open the task runner, if you are on Windows with the following command
+
+```
+Windows + R
+```
+and then enter the following line of code 
+
+```
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+```
+This will disable Google security and you will be able to see the page correctly.
+
+## Calidad de código 💎 / Code quality 💎
+
+Utilizando la plataforma que se nos daba en el enunciado (Dashboard), la calidad del código es: **A**
+
+Using the platform given in the statement (Dashboard), the quality of the code is: **A**
+
+
 ## Comenzando 🚀 / Starting 🚀
 
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
