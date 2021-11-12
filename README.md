@@ -1,4 +1,5 @@
-# Networking-grid. Hackaton JOBMadrid
+# Networking-grid. 
+## Hackaton JOBMadrid
 
 Este proyecto consiste en una página donde encontrarás informacion de distintas empresas. En el listado aparece su tamaño, nombre, año de fundación... Si abres la pestalla filter, verás que puedes filtrar por tipo de empresa.
 
