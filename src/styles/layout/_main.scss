@@ -1,0 +1,51 @@
+.main {
+  margin: 20px 15px;
+  font-family: $fontmain;
+  &__list {
+    display: grid;
+    width: 100%;
+    &--item {
+      border: solid 1px gray;
+      border-radius: 10px;
+      background-color: $coloritem;
+      padding: 20px 15px;
+      margin: 5px 40px 5px 5px;
+      &__title {
+        text-transform: uppercase;
+      }
+      &__div {
+        display: flex;
+        justify-content: flex-start;
+        margin: 20px 25px;
+        &--industry {
+          color: rgb(55, 122, 145);
+          padding: 5px 10px;
+          border: solid 1px rgb(55, 122, 145);
+          border-radius: 15px;
+        }
+        &--size {
+          padding: 5px 10px;
+          color: rgb(12, 143, 12);
+          border: solid 1px rgb(12, 143, 12);
+          border-radius: 15px;
+          margin: 0 15px;
+        }
+      }
+      &__web {
+        color: white;
+        background-color: $colorgreen;
+        padding: 5px 10px;
+        border-radius: 15px;
+      }
+    }
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+    @media (min-width: 970px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 1400px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   overflow: auto;
-  height: 45px;
+  height: 70px;
   &__buttons {
     margin: 10px;
     border: solid 1px black;
@@ -11,5 +11,5 @@
 }
 
 .green {
-  background-color: #5ab16d;
+  background-color: $colorgreen;
 }

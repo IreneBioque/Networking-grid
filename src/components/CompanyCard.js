@@ -1,11 +1,19 @@
 const CompanyCard = (props) => {
   return (
     <>
-      <h4 className='list__element--text'>{props.dataCompany.name}</h4>
+      <h4 className='main__list--item__title'>{props.dataCompany.name}</h4>
       <p>{props.dataCompany.founded}</p>
-      <p>{props.dataCompany.industry}</p>
-      <p>{props.dataCompany.size}</p>
-      <a href={'http://' + props.dataCompany.website} target='_blank'>
+      <div className='main__list--item__div'>
+        <p className='main__list--item__div--industry'>
+          {props.dataCompany.industry}
+        </p>
+        <p className='main__list--item__div--size'>{props.dataCompany.size}</p>
+      </div>
+      <a
+        href={'http://' + props.dataCompany.website}
+        target='_blank'
+        className='main__list--item__web'
+      >
         WebSite
       </a>
     </>

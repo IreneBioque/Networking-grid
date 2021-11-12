@@ -1,4 +1,9 @@
 input:focus,
 button:focus {
-  background-color: #5ab16d;
+  background-color: $colorgreen;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
 }

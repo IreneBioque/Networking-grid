@@ -1,7 +1,10 @@
 .header {
+  font-family: $fontmain;
+  font-weight: bold;
   display: flex;
   justify-content: center;
-  margin: 5px 0;
+  padding: 10px 0;
+  background-color: $coloritem;
   &__button {
     margin: 10px;
     border: 1px solid black;
@@ -10,5 +13,9 @@
   &__title {
     font-size: 30px;
     text-align: center;
+    width: 60%;
+    @media (min-width: 1200px) {
+      width: 80%;
+    }
   }
 }

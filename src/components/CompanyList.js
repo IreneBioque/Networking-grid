@@ -3,7 +3,7 @@ import CompanyCard from './CompanyCard';
 const CompanyList = (props) => {
   const company = props.data.map((singleCompany, i) => {
     return (
-      <li key={i} className='list__element'>
+      <li key={i} className='main__list--item'>
         <CompanyCard dataCompany={singleCompany} />
       </li>
     );
